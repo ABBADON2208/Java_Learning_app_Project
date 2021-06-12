@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddd3ee"
+    tools:context=".interviewpage">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Interview Question "
+        android:textColor="@color/maroon"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:text="The answers to the Core Java interview questions are short and to the point. The core Java interview questions are categorized in Basics of Java interview questions, OOPs interview questions, String Handling interview questions, Multithreading interview questions, collection interview questions, JDBC interview questions, etc."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="HardcodedText" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="496dp"
+        android:background="@drawable/mainpagebackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/interviewimage1"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="44dp"
+            android:src="@drawable/interviewimage1"
+            app:civ_border_color="@color/teal_200"
+            app:civ_border_width="2dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="@color/teal_200"
+            app:civ_shadow_radius="10dp"
+            app:layout_constraintBottom_toBottomOf="@+id/interviewimage2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/interviewimage2"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/interviewimage2"
+            app:civ_border_color="@color/teal_200"
+            app:civ_border_width="2dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="@color/teal_200"
+            app:civ_shadow_radius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.542"
+            app:layout_constraintStart_toEndOf="@+id/interviewimage1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="ScrollViewSize">
+
+        <TextView
+            android:id="@+id/introductiontext1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/text1"
+            android:textColor="@color/red"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/introduction"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text2"
+            android:textSize="20sp"
+            android:textColor="@color/green"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/introductiontext4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text3"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginBottom="30dp"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

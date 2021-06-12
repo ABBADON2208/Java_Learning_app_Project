@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">newmainpage</string>
+    <string name="text1">Java Programming Language</string>
+    <string name="introduction">Java is one of the most popular and widely used programming language.\n\n1) When compared with Python, Java kind of fits between C++ and Python. The programs written in Java typically run faster than corresponding Python programs and slower than C++. Like C++, Java does static type checking, but Python does not.\n\n2) When compared with C++, Java codes are generally more maintainable because Java does not allow many things which may lead bad/inefficient programming if used incorrectly. For example, non-primitives are always references in Java. So we cannot pass large objects (like we can do in C++) to functions, we always pass references in Java. One more example, since there are no pointers, bad memory access is also not possible.\n\n3) The Java codes are first compiled into byte code (machine independent code). Then the byte code runs on Java Virtual Machine (JVM) regardless of the underlying architecture.\n\n4) Java is used in all kind of applications like Mobile Applications (Android is Java based), desktop applications, web applications, client server applications, enterprise applications and many more.\n\n5) Java is Object Oriented. However it is not considered as pure object oriented as it provides support for primitive data types (like int, char, etc)
+\n\n6) Java syntax is similar to C/C++. But Java does not provide low level programming functionalities like pointers. Also, Java codes are always written in the form of classes and objects.</string>
+    <string name="text2">Simple Hello World Program :</string>
+    <string name="text3">// A Java program to print "Hello World" \n\n
+    public class GFG {\n
+    public static void main(String args[])\n
+    {\n
+        System.out.println("Hello World");\n
+    }\n
+         }\n\nHello World //OUTPUT</string>
+    <string name="allquestionanswer">allquestionanswer</string>
+    <string name="mainanswer">ANSWER</string>
+    <string name="question1"><u>1) Explain JDK, JRE and JVM?</u></string>
+    <string name="question2"><u>2) Explain public static void main(String args[]) in Java?</u></string>
+    <string name="question3"><u>3) Why Java is platform independent?</u></string>
+    <string name="question4"><u>4) Why Java is not 100% Object-oriented?</u></string>
+    <string name="question5"><u>5) What are wrapper classes in Java?</u></string>
+    <string name="question6"><u>6) What are constructors in Java?</u></string>
+    <string name="question7"><u>7) What is singleton class in Java and how can we make a class singleton?</u></string>
+    <string name="question8"><u>8) What is the difference between equals() and == in Java?</u></string>
+    <string name="question9"><u>9) What is the difference between Array list and vector in Java?</u></string>
+    <string name="question10"><u>10) What are the differences between Heap and Stack Memory in Java?</u></string>
+    <string name="question11"><u>11) What is a package in Java? List down various advantages of packages.?</u></string>
+    <string name="question12"><u>12) Why pointers are not used in Java?</u></string>
+    <string name="question13"><u>13) What is JIT compiler in Java?</u></string>
+    <string name="question14"><u>14) What are access modifiers in Java?</u></string>
+    <string name="question15"><u>15) Define a Java Class.</u></string>
+    <string name="question16"><u>16) What is an object in Java and how is it created?</u></string>
+    <string name="question17"><u>17) What is Object Oriented Programming?</u></string>
+    <string name="question18"><u>18) What are the main concepts of OOPs in Java?</u></string>
+    <string name="question19"><u>19) What is the difference between a local variable and an instance variable?</u></string>
+    <string name="question20"><u>20) Differentiate between the constructors and methods in Java</u></string>
+    <string name="question21"><u>21) What is final keyword in Java?</u></string>
+    <string name="question22"><u>22) What is the difference between break and continue statements?</u></string>
+    <string name="question23"><u>23) What is an infinite loop in Java? Explain with an example.</u></string>
+    <string name="question24"><u>24) What is the difference between this() and super() in Java?</u></string>
+    <string name="question25"><u>25) What is Java String Pool?</u></string>
+    <string name="question26"><u>26) Differentiate between static and non-static methods in Java.</u></string>
+    <string name="question27"><u>27) What is constructor chaining in Java?</u></string>
+    <string name="question28"><u>28) Difference between String, StringBuilder, and StringBuffer.</u></string>
+    <string name="question29"><u>29) What is a classloader in Java?</u></string>
+    <string name="question30"><u>30) Why Java Strings are immutable in nature?</u></string>
+    <string name="question31"><u>31) What is the difference between an array and an array list?</u></string>
+    <string name="question32"><u>32) What is a Map in Java?</u></string>
+    <string name="question33"><u>33) What is collection class in Java?</u></string>
+    <string name="question34"><u>34) What is Polymorphism?</u></string>
+    <string name="question35"><u>35) What is runtime polymorphism or dynamic method dispatch?</u></string>
+    <string name="question36"><u>36) What is abstraction in Java?</u></string>
+    <string name="question37"><u>37) What do you mean by an interface in Java?</u></string>
+    <string name="question38"><u>38) What is the difference between abstract classes and interfaces?</u></string>
+    <string name="question39"><u>39) What is inheritance in Java?</u></string>
+    <string name="question40"><u>40) What are the different types of inheritance in Java?</u></string>
+    <string name="question41"><u>41) What is method overloading and method overriding?</u></string>
+    <string name="question42"><u>42) Can you override a private or static method in Java?</u></string>
+    <string name="question43"><u>43) What is multiple inheritance? Is it supported by Java?</u></string>
+    <string name="question44"><u>44) What is encapsulation in Java?</u></string>
+    <string name="question45"><u>45) What is an association?</u></string>
+    <string name="question46"><u>46) What do you mean by aggregation?</u></string>
+    <string name="question47"><u>47) What is composition in Java?</u></string>
+    <string name="question48"><u>48) What is a marker interface?</u></string>
+    <string name="question49"><u>49) What is object cloning in Java?</u></string>
+    <string name="question50"><u>50) What is a copy constructor in Java?</u></string>
+    <string name="question51"><u>51) What is a constructor overloading in Java?</u></string>
+    <string name="question52"><u>52) What is the difference between Error and Exception?</u></string>
+    <string name="question53"><u>53) How can you handle Java exceptions?</u></string>
+    <string name="question54"><u>54) What are the differences between Checked Exception and Unchecked Exception?</u></string>
+    <string name="question55"><u>55) What purpose do the keywords final, finally, and finalize fulfill? </u></string>
+    <string name="question56"><u>56) What are the differences between throw and throws? </u></string>
+    <string name="question57"><u>57) What is exception hierarchy in java?</u></string>
+    <string name="question58"><u>58) How to create a custom Exception?</u></string>
+    <string name="question59"><u>59) What are the important methods of Java Exception Class?</u></string>
+    <string name="question60"><u>60) What are the differences between processes and thread?</u></string>
+    <string name="question61"><u>61) What is a finally block? Is there a case when finally will not execute?</u></string>
+    <string name="question62"><u>62) What is synchronization?</u></string>
+    <string name="question63"><u>63) Can we write multiple catch blocks under single try block?</u></string>
+    <string name="question64"><u>64) What is OutOfMemoryError in Java?</u></string>
+    <string name="question65"><u>65) What is a Thread?</u></string>
+    <string name="question66"><u>66) What are the two ways to create a thread?</u></string>
+    <string name="question67"><u>67) What are the different types of garbage collectors in Java?</u></string>
+    <string name="question68"><u>68) Why the main method is static in java??</u></string>
+    <string name="question69"><u>69) What happens if you remove static modifier from the main method?</u></string>
+    <string name="question70"><u>70) What is the scope of variables in Java in following cases?</u></string>
+    <string name="question71"><u>71) Why method overloading is not possible by changing the return type in java?</u></string>
+    <string name="question72"><u>72) What is blank final variable?</u></string>
+    <string name="question73"><u>73) Differences between HashMap and HashTable in Java?</u></string>
+    <string name="question74"><u>74) How are Java objects stored in memory?</u></string>
+    <string name="question75"><u>75) What is the difference between double and float variables in Java?</u></string>
+    <string name="question76"><u>76) How can you generate random numbers in Java?</u></string>
+    <string name="question77"><u>77) Can main() method in Java can return any data??</u></string>
+    <string name="question78"><u>78) Can we declare a class as Abstract without having any abstract method?</u></string>
+    <string name="question79"><u>79) What are the performance implications of Interfaces over abstract classes?</u></string>
+    <string name="question80"><u>80) Does Importing a package imports its sub-packages as well in Java?</u></string>
+    <string name="question81"><u>81) How can we pass argument to a function by reference instead of pass by value?</u></string>
+    <string name="question82"><u>82) Can we declare the main method of our class as private?</u></string>
+    <string name="question83"><u>83) How an object is serialized in java?</u></string>
+    <string name="question84"><u>84) Is it compulsory for a Try Block to be followed by a Catch Block in Java for Exception handling?</u></string>
+    <string name="question85"><u>85) Is there any way to skip Finally block of exception even if some exception occurs in the exception block?</u></string>
+    <string name="question86"><u>86) When the constructor of a class is invoked?</u></string>
+    <string name="question87"><u>87) Is String a data type in java?</u></string>
+    <string name="question88"><u>88) In the below example, how many String Objects are created?</u>\nString s1="I am Java Expert";\nString s2="I am C Expert";\nString s3="I am Java Expert";</string>
+    <string name="question89"><u>89) Why Strings in Java are called as Immutable??</u></string>
+    <string name="question90"><u>90) What\'s the difference between an array and Vector?</u></string>
+    <string name="question91"><u>91) When a lot of changes are required in data, which one should be a preference to be used? String or StringBuffer?</u></string>
+    <string name="question92"><u>92) How garbage collection is done in Java?</u></string>
+    <string name="question93"><u>93) Can we call the constructor of a class more than once for an object?</u></string>
+    <string name="question94"><u>94) There are two classes named classA and classB. Both classes are in the same package. Can a private member of classA can be accessed by an object of classB?</u></string>
+    <string name="question95"><u>95) How can we make copy of a java object?</u></string>
+    <string name="question96"><u>96) What\'s the default access specifier for variables and methods of a class?</u></string>
+    <string name="question97"><u>97) Give an example of use of Pointers in Java class.</u></string>
+    <string name="question98"><u>98) What\'s difference between Stack and Queue?</u></string>
+    <string name="question99"><u>99) How can we use primitive data types as objects?</u></string>
+    <string name="question100"><u>100) Can we use a default constructor of a class even if an explicit constructor is defined?</u></string>
+</resources>

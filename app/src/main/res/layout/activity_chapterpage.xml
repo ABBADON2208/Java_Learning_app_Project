@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddd3ee"
+    tools:context=".chapterpage">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Content"
+        android:textColor="@color/maroon"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Java is a widely used programming language expressly designed for used in the distributed environment of the internet.\n\n
+We will help you learn java from zero to hero and master it."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:ignore="HardcodedText" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="535dp"
+        android:background="@drawable/mainpagebackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            tools:ignore="UselessLeaf">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Introduction"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Variable"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Data Type"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Operator"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Flow Control"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Break and continue"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Array"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Class"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Method"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Constructor"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="String"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Access Modifier"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+
+
+            <TextView
+                android:id="@+id/text13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="oops 1"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+
+            <TextView
+                android:id="@+id/text14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Inheritance"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+
+            <TextView
+                android:id="@+id/text15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Interface"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Polymorphism"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+
+            <TextView
+                android:id="@+id/text17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Encapsulation"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+
+            <TextView
+                android:id="@+id/text18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Oop 2"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Exception Handling"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Annotation and Assertion"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Collections"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:id="@+id/text22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Queue"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:id="@+id/text23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Map"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:id="@+id/text24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Set"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:id="@+id/text25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Java I/O Stream"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:id="@+id/text26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Java Reader/writer"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:id="@+id/text27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/mainbackground2"
+                android:text="Additional Topic"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

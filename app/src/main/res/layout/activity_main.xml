@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddd3ee"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="187dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginRight="154dp"
+        android:text="Content"
+        android:textColor="@color/maroon"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="27dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:contentDescription="mainpageimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mainpagelogo"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="Hey, What would you like to learn today?"
+        android:textColor="@color/maroon"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="HardcodedText" />
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="UselessLeaf">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:layout_marginTop="15dp"
+                tools:ignore="UselessParent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/image1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginStart="10dp"
+                    tools:ignore="RtlCompat">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/intro"
+                        android:contentDescription="introimage"
+                        tools:ignore="HardcodedText" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/image2"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_column="1"
+                    android:layout_row="0"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="50dp"
+                    tools:ignore="RtlCompat">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/content"
+                        android:contentDescription="contentimage"
+                        tools:ignore="HardcodedText" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/image3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_column="0"
+                    android:layout_row="1"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="10dp"
+                    tools:ignore="RtlCompat">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/coding"
+                        android:contentDescription="coding"
+                        tools:ignore="HardcodedText" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/image4"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginStart="50dp"
+                    tools:ignore="RtlCompat">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/interview"
+                        android:contentDescription="interview"
+                        tools:ignore="HardcodedText" />
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mainpagebackground"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/video"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            tools:ignore="ContentDescription,RtlCompat"
+            android:background="@drawable/video"/>
+
+        <ImageView
+            android:id="@+id/amazon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            tools:ignore="ContentDescription,RtlCompat"
+            android:background="@drawable/amazon"/>
+
+        <ImageView
+            android:id="@+id/udemy"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            tools:ignore="ContentDescription,RtlCompat"
+            android:background="@drawable/udemy"/>
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
